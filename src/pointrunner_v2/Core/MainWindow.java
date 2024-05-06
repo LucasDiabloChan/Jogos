@@ -11,7 +11,7 @@ package pointrunner_v2.Core;
 public class MainWindow {
     public static void main(String[] args) {
         GameScreen gs;
-        gs = new GameScreen(10, 24, 20);
+        gs = new GameScreen(14, 24, 20);
         System.out.println("Classe criada...");
         gs.setVisible(true);
         
